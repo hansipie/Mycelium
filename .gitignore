@@ -28,3 +28,6 @@ Thumbs.db
 *.safetensors
 *.bin
 *.gguf
+/.claude
+/.specify
+/specs
