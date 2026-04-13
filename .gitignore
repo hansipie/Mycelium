@@ -1,0 +1,30 @@
+# Rust build artifacts
+/target/
+debug/
+release/
+*.rs.bk
+*.rlib
+
+# Profiling
+*.prof*
+*.profdata
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & env
+*.log
+.env
+.env.*
+
+# HuggingFace model cache (heavy, not to be committed)
+*.safetensors
+*.bin
+*.gguf
